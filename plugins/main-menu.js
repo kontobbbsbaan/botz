@@ -41,24 +41,25 @@ const defaultMenu = {
 ╰─────────────⬣
 %readmore`.trimStart(), 
   header: '╭─㉿ 〔 %category 〕 ㉿─\n┃',
-  body: '┃⫹⫺ %cmd %islimit %isPremium',
+  body: '┃ %cmd %islimit %isPremium',
   footer: '┃\n╰────────㉿\n', 
   footerText: 'Powered by ᯤ ᴋɪᴀɴ',
   after: `
-╭──〔  THANKS TO  〕─⬣
-⫹⫺ Allah SWT
-⫹⫺ Orang Tua
-⫹⫺ Kesabaran
-⫹⫺ Penyemangat
-⫹⫺ Nurutomo
-⫹⫺ Ilmanhdyt
-⫹⫺ Elyas
-⫹⫺ Hyzer
-⫹⫺ KrizynOfc
-⫹⫺ RielgansOfc
-⫹⫺ ArullOfc
 
-╰─────────────⬣
+*THANKS TO*
+
+ Allah SWT
+Orang Tua
+ Kesabaran
+ Penyemangat
+ Nurutomo
+ Ilmanhdyt
+ Elyas
+ Hyzer
+ KrizynOfc
+ RielgansOfc
+ ArullOfc
+ Kianganz1
 `,
 }
 
@@ -314,8 +315,8 @@ let menuu = `┏━━〔 ıll INFO USER llı 〕━㉿
 ◎ Chat Ban : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ◎ User Ban : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ┗━━━━━━━━━━━━━㉿
-⫹⫺ Date  : ${week} ${date}
-⫹⫺ Time : ${wib}
+ Date  : ${week} ${date}
+ Time : ${wib}
 `
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
