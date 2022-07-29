@@ -30,8 +30,8 @@ Runtime: ${uptime}`
            hydratedFooterText: `${date}`,
            hydratedButtons: [{
              urlButton: {
-               displayText: '📍instagram',
-               url: instagram
+               displayText: 'My Github',
+               url: webm
              }
 
            },
