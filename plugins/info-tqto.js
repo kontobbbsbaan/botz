@@ -9,17 +9,23 @@ bear = "Source Code"
 let esce = `
 BIG THANKS TO
 
-⤿ Nurutomo
-    📮 https://github.com/Nurutomo
-⤿ Elyas
-    📮 https://github.com/Paquito1923
-⤿ Hyzer Official
-    📮 https://github.com/Hyzerr
-⤿ Krizyn Ofc
-    📮 https://github.com/krizynofc
-⤿ ArullOfc
-    📮 https://github.com/Warikrr
-THANKS PARA DONASI YANG TERHORMAT
+Nurutomo
+https://github.com/Nurutomo
+
+Elyas
+https://github.com/Paquito1923
+
+Hyzer Official
+https://github.com/Hyzerr
+
+Krizyn Ofc
+https://github.com/krizynofc
+
+ArullOfc
+https://github.com/Warikrr
+
+Kianganz1
+https://github.com/Kianganz1
 `
 conn.sendButtonImg(m.chat, fla + 'Thanks To', esce, wm2, 'Menu', '.menu', m) 
 }
