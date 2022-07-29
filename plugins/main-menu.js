@@ -43,7 +43,7 @@ const defaultMenu = {
   header: '╭─㉿ 〔 %category 〕 ㉿─\n┃',
   body: '┃⫹⫺ %cmd %islimit %isPremium',
   footer: '┃\n╰────────㉿\n', 
-  footerText: 'Powered by ᯤ ʀɪᴇʟɢᴀɴs ᴏғᴄ',
+  footerText: 'Powered by ᯤ ᴋɪᴀɴ',
   after: `
 ╭──〔  THANKS TO  〕─⬣
 ⫹⫺ Allah SWT
@@ -57,6 +57,7 @@ const defaultMenu = {
 ⫹⫺ KrizynOfc
 ⫹⫺ RielgansOfc
 ⫹⫺ ArullOfc
+
 ╰─────────────⬣
 `,
 }
@@ -322,7 +323,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "☰𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐁𝐲 ©𝐀𝐫𝐮𝐥𝐥𝐎𝐟𝐜",
+            footerText: "☰𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐁𝐲 ©𝗸𝗶𝗮𝗻",
             mtype: 'listMessage',
             sections: [
               {
@@ -533,8 +534,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
              {
              urlButton: {
-               displayText: 'Group Bot', 
-               url: gc
+               displayText: 'Ping', 
+               url: ".ping',
              }
 
            },
@@ -554,8 +555,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
            {
              quickReplyButton: {
-               displayText: ' Thanks To',
-               id: '.tqto',
+               displayText: 'Speed',
+               id: '.speed',
              }
            }]
          }
@@ -575,7 +576,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
 handler.help = ['Krizyn']
 handler.tags = ['main']
 handler.command = /^(alive|panel|krizyn|menu|help|\?)$/i
-handler.register = true
+handler.register = false
 handler.owner = false
 handler.mods = false
 handler.premium = false
