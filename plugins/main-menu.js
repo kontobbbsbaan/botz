@@ -536,7 +536,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
              {
              urlButton: {
                displayText: 'Ping', 
-               url: ".ping',
+               url: '.ping',
              }
 
            },
